@@ -1,19 +1,25 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Header from "../components/Header";  
+import Footer from "../components/Footer";  
 import "../styles/home.css";
-import "../styles/header.css";
 
 const Home = () => {
   const events = [
     { id: 1, title: "Prayer Meeting", date: "2024-12-28", description: "Join us for a special prayer session." },
-    { id: 2, title: "Youth Conference", date: "2025-01-15", description: "A gathering of faith and fellowship." },
+    { id: 2, title: "Translation Workshop", date: "2025-05-15", description: "A gathering of faith and fellowship." },
   ];
 
   return (
     <div className="home">
+      {/* Include the Header at the top of the page */}
+      <Header />
+
       <header className="hero">
-        <h1>Welcome to FECIN</h1>
-        <p>Empowering faith, fostering community, and making a difference.</p>
+        <h1>
+          Bringing God's Word <span className="text-green">to Every Language, Every Heart</span>
+        </h1>
+        <p>Empowering Communities Through the Translation of the Holy Bible.</p>
         <Link to="/about-us" className="button-primary">Learn More</Link>
       </header>
 
@@ -39,12 +45,8 @@ const Home = () => {
         </div>
       </section>
 
-      <footer className="contact-info">
-        <h2>Contact Us</h2>
-        <p>Email: contact@fecin.org</p>
-        <p>Phone: +123 456 7890</p>
-        <Link to="/contact-us" className="button-primary">Get in Touch</Link>
-      </footer>
+      {/* Include the Footer at the bottom of the page */}
+      <Footer />
     </div>
   );
 };
