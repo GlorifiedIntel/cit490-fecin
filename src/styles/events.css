@@ -1,0 +1,42 @@
+/* Events Page Styles */
+.events-page {
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+  }
+  
+  .events-title {
+    font-size: 2rem;
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .events-description {
+    font-size: 1rem;
+    color: var(--secondary-color);
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .event-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .events-title {
+      font-size: 1.8rem;
+    }
+  
+    .events-description {
+      font-size: 0.9rem;
+    }
+  
+    .event-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  

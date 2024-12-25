@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/eventCard.css";
+import "../styles/events.css";
 
 const EventCard = ({ title, date, description, onViewDetails }) => {
   return (
