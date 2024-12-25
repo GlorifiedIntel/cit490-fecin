@@ -1,2 +1,2 @@
-# cit490-fecin
-CIT 490: Senior Project at BYU-Idaho is a capstone course designed for seniors in the Computer Information Technology program. It provides students with the opportunity to apply their cumulative knowledge and skills to a real-world project. 
+# CIT 490 SENIOR PROJECT
+CIT 490: Senior Project at BYU-Idaho is a capstone course designed for seniors in the Computer Information Technology program. It provides students with the opportunity to apply their cumulative knowledge and skills to a real-world project. The course focuses on solving practical problems through the design, development, and implementation of technology solutions. Students work independently or in teams, collaborating with clients or stakeholders to deliver functional prototypes, applications, or systems. The project emphasizes technical proficiency, project management, teamwork, and professional communication, preparing students for careers in the IT industry.
