@@ -1,0 +1,159 @@
+/* Global Styles for Home */
+.home {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+  }
+  
+  .hero {
+    background: linear-gradient(135deg, #007bff, #6c757d);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero .button-primary {
+    background-color: white;
+    color: var(--primary-color);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .hero .button-primary:hover {
+    background-color: #e9ecef;
+  }
+  
+  /* Events Preview */
+  .events-preview {
+    padding: 20px;
+    background-color: var(--background-color);
+  }
+  
+  .events-preview h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .event-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 10px;
+  }
+  
+  .event-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .event-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .event-card h3 {
+    margin-bottom: 10px;
+    color: var(--primary-color);
+  }
+  
+  .event-card .button-secondary {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .event-card .button-secondary:hover {
+    background-color: darken(var(--secondary-color), 10%);
+  }
+  
+  /* Call-to-Action Section */
+  .cta-section {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .cta-section h2 {
+    margin-bottom: 20px;
+  }
+  
+  .cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .cta-buttons .button-primary,
+  .cta-buttons .button-secondary {
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .cta-buttons .button-primary {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  .cta-buttons .button-primary:hover {
+    background-color: darken(var(--primary-color), 10%);
+  }
+  
+  .cta-buttons .button-secondary {
+    background-color: var(--secondary-color);
+    color: white;
+  }
+  
+  .cta-buttons .button-secondary:hover {
+    background-color: darken(var(--secondary-color), 10%);
+  }
+  
+  /* Footer Contact Info */
+  .contact-info {
+    text-align: center;
+    padding: 20px;
+    background-color: #212529;
+    color: white;
+  }
+  
+  .contact-info h2 {
+    margin-bottom: 10px;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+  }
+  
+  .contact-info .button-primary {
+    background-color: white;
+    color: var(--primary-color);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .contact-info .button-primary:hover {
+    background-color: #e9ecef;
+  }
+  
